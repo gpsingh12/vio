@@ -9,11 +9,6 @@ from plotly.graph_objs import *
 from dash.dependencies import Input, Output, State 
 
 
-app = dash.Dash(__name__)
-server = app.server
-app.title = 'FDNY VIOLATIONS'
-
-
 
 
 # API keys and datasets
