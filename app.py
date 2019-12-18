@@ -33,7 +33,7 @@ server = app.server
 
 layout_bar1 = dict(
     autosize=True,
-    height=250,
+    height=500,
     font=dict(color="#ffffff"),
     titlefont=dict(color="#ffffff", size='14'),
     margin=dict(
@@ -60,7 +60,7 @@ layout_bar1 = dict(
 
 layout_bar2 = dict(
     autosize=True,
-    height=250,
+    height=500,
     font=dict(color="#ffffff"),
     titlefont=dict(color="#ffffff", size='14'),
     margin=dict(
@@ -88,7 +88,7 @@ layout_bar2 = dict(
 
 layout_map = dict(
     autosize=True,
-    height=500,
+    height=1000,
     font=dict(color="#ffffff"),
     titlefont=dict(color="#ffffff", size='14'),
     margin=dict(
