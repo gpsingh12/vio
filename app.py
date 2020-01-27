@@ -125,7 +125,7 @@ app.layout = html.Div([
         id='dropdown',
         options=[{'label': i, 'value': i} for i in map_data.BOROUGH.unique()],
         value='BX',
-        style={'width':'50%', 'backgroundColor' : "#262b3d", 'color':'red'}
+        style={'width':'50%', 'backgroundColor' : "#262b3d", 'color':'green'}
     )
     ]),
     html.Div([
