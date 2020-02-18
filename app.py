@@ -159,7 +159,7 @@ app.layout = html.Div([
 
 
 def update_value(value):
-    DF=map_data[map_data.YEAR > value]
+    DF=map_data[map_data.YEAR == value]
     
     fig = go.Figure(go.Densitymapbox(lat=DF['LATITUDE'], lon=DF['LONGITUDE'],  radius=3))
     fig.update_layout(mapbox_style="stamen-terrain",mapbox_center_lon=-74.013026,mapbox_center_lat=40.711085,mapbox_zoom=9)
