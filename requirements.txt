@@ -36,7 +36,7 @@ fsspec==0.5.2
 future==0.18.1
 gunicorn==19.9.0
 HeapDict==1.0.1
-httplib2==0.14.0
+httplib2==0.18.0
 hyperlink==19.0.0
 idna==2.8
 imageio==2.6.1
